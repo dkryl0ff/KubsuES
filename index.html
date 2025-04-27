@@ -105,10 +105,27 @@
       margin-bottom: 40px;
     }
 
-    .bot-section img {
-      width: 30px;
-      vertical-align: middle;
-      margin-right: 10px;
+    .bot-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 20px;
+      background-color: #0088cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .bot-link img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .bot-link:hover {
+      background-color: #0071aa;
+      transform: scale(1.05);
     }
 
     .store-buttons img {
@@ -163,8 +180,10 @@
   </div>
 
   <div class="bot-section">
-    <h3><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="tg"> Телеграм-бот</h3>
-    <p>Бот для получения информации → <a href="#">@ediniy_kubsu_bot</a></p>
+    <a class="bot-link" href="https://t.me/ediniy_kubsu_bot" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
+      Перейти в Телеграм-бот
+    </a>
   </div>
 
   <h2>Мобильные приложения</h2>
